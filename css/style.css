@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	font-family: 'Rubik', sans-serif;
+}
+
+body {
+	background-image: url("../image/home.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.input_style {
+	padding: 8px;
+	margin: 10px 0;
+	width: 95%;
+	border-radius: 10px;
+	font-weight: 700;
+}
+
+button {
+	padding: 5px 75px;
+	border-radius: 25px;
+	margin: 10px 0;
+	font-size: 20px;
+}
+
+
+/* Login Page Style  */
+.container {
+	margin: 10% 20%;
+	display: flex;
+	flex-direction: row;
+}
+
+.student_login, .admin_login {
+	width: 50%;
+	padding: 70px 40px;
+	color: white;
+}
+
+.admin_login {
+	background-color: rgb(19, 17, 17);
+}
+
+.student_login {
+	background-color: rgb(90, 89, 89,.80);
+}
+
+.std_log {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.sBtn {
+	background-color: #000;
+	color: #fff;
+	width: 48%;
+	padding: 10px;
+	border-radius: 25px;
+	font-weight: 600;
+}
+
+.aBtn {
+	background-color: #fff;
+	color: #000;
+	width: 100%;
+	padding: 10px;
+	border-radius: 25px;
+	font-weight: 600;
+}
+
+
+/* Navbar Style  */
+.navbar {
+	display: flex;
+	flex-direction: row;
+	color: #fff;
+	background-color: rgb(19, 17, 17,.8);
+	padding: 15px;
+	justify-content: space-between;
+}
+
+#nav_tag {
+	padding: 10px;
+	font-weight: 600;
+	font-size: 20px;
+	color: #fff;
+}
+
+#nav_tag:hover {
+	color: rgba(145, 124, 124);
+}
+
+
+
+/* Table Style  */
+.table_container {
+	margin: 3% 15%;
+}
+
+table {
+	color: #fff;
+	width: 100%;
+	text-align: center;
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+th,td {
+	padding: 10px 15px;
+}
+
+th {
+	background-color: rgb(19, 17, 17);
+}
+
+td {
+	background-color: rgb(90, 89, 89,.80);
+}
+
+
+/* Room Page Style  */
+.room_container, .signup_container {
+	margin: 5% 30%;
+	padding: 50px 0;
+	background-color: rgb(90, 89, 89,.80);
+	color: #fff;
+}
+
+.create_room, .signup_inner {
+	padding: 0 50px;
+}
+
+.rBtn {
+	width: 95%;
+	background-color: #000;
+	color: #fff;
+	padding: 8px;
+	margin: 10px 0;
+	border-radius: 25px;
+	align-items: center;
+	font-weight: 600;
+}
